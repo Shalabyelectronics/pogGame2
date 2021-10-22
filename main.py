@@ -36,6 +36,8 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.rest_position()
         score.update_r_score()
+    if score.check_winner():
+        game_is_on = False
 
 
 

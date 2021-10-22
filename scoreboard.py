@@ -25,3 +25,13 @@ class Scoreboard(Turtle):
     def update_l_score(self):
         self.l_score += 1
         self.update_score()
+
+    def check_winner(self):
+        if self.r_score == 5:
+            self.home()
+            self.write("Right player Won", align="center", font=("Courier", 40, "normal"))
+            return True
+        if self.l_score == 5:
+            self.home()
+            self.write("Left player Won", align="center", font=("Courier", 40, "normal"))
+            return True
