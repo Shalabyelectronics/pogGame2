@@ -1,3 +1,2 @@
 # pogGame2
-Improving my first Pog Game code my old code about this game you can founf it her https://github.com/Shalabyelectronics/pogGame.git
-So my PogGame2 it's an improvement from pogGame and soon I will address all part of improvement I did.
+This project is a part of learning python and I will explain how I did this project soon.
